@@ -16,7 +16,7 @@ else:
 
 
 st.set_page_config(page_title="Crop Recommendation", layout="wide")
-st.markdown("<h1 style='text-align: center;'>🌾 Smart Crop Recommendation System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>🌾 FarmMate Crop Recommendation System</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Enter soil and weather conditions to get the best crop suggestion.</p>", unsafe_allow_html=True)
 
 st.markdown("---")
@@ -61,5 +61,6 @@ if "prediction" in st.session_state:
             st.markdown(f"**📌 Tip:** {crop_info[prediction]['tip']}")
         else:
             st.info("ℹ️ No additional info available for this crop.")
+
 
 
