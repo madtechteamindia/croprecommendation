@@ -30,3 +30,4 @@ with open("crop_model_optimized.pkl", "wb") as f:
     pickle.dump(model, f)
 
 print("Model trained and saved successfully.")
+
