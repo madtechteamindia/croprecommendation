@@ -84,14 +84,6 @@ Evaluation: Confusion matrix, classification report, accuracy score
 Deployed via Streamlit Cloud
 Simply pushed to GitHub and linked with Streamlit’s deployment platform.
 
-## 👨‍💻 Authors
-### Aayush Sharma
-
-### Aditya Choudhary
-
-### Himanshu Yadav
-
-### Nitesh Kumar
 
 
 
